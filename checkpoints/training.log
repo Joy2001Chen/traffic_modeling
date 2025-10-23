@@ -1,0 +1,24 @@
+2025-09-07 23:14:04,447 - INFO - Starting training for 50 epochs
+2025-09-07 23:14:04,467 - INFO - Task type: regression
+2025-09-07 23:14:04,468 - INFO - Device: cpu
+2025-09-07 23:27:30,752 - INFO - Starting training for 50 epochs
+2025-09-07 23:27:30,753 - INFO - Task type: regression
+2025-09-07 23:27:30,753 - INFO - Device: cpu
+2025-09-08 22:34:44,351 - INFO - Starting training for 50 epochs
+2025-09-08 22:34:44,351 - INFO - Task type: regression
+2025-09-08 22:34:44,351 - INFO - Device: cpu
+2025-09-08 22:48:40,786 - INFO - Starting training for 50 epochs
+2025-09-08 22:48:40,787 - INFO - Task type: regression
+2025-09-08 22:48:40,787 - INFO - Device: cpu
+2025-09-08 23:14:32,133 - INFO - Starting training for 1 epochs
+2025-09-08 23:14:32,134 - INFO - Task type: regression
+2025-09-08 23:14:32,134 - INFO - Device: cpu
+2025-09-08 23:30:27,429 - INFO - Starting training for 5 epochs
+2025-09-08 23:30:27,429 - INFO - Task type: regression
+2025-09-08 23:30:27,430 - INFO - Device: cpu
+2025-09-09 14:12:04,107 - INFO - Starting training for 1 epochs
+2025-09-09 14:12:04,108 - INFO - Task type: regression
+2025-09-09 14:12:04,108 - INFO - Device: cpu
+2025-09-09 14:18:02,813 - INFO - Epoch 1/1 - Train Loss: 0.0090, Train MSE: 0.0090 - Val Loss: 0.0003, Val MSE: 0.0003
+2025-09-09 14:18:07,437 - INFO - New best model saved at epoch 1
+2025-09-09 14:18:52,586 - INFO - Final Test - Loss: 0.0003, MSE: 0.0003
