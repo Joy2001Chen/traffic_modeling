@@ -1,0 +1,35 @@
+{
+    "pems_settings": {
+        "default_vds_ids": [
+            "400001",
+            "400002", 
+            "400003",
+            "400004",
+            "400005"
+        ],
+        "data_types": ["flow", "speed", "occupancy"],
+        "default_data_type": "occupancy",
+        "download_settings": {
+            "headless": true,
+            "download_delay": 2.0,
+            "image_size": 224,
+            "sequence_length": 8
+        },
+        "date_ranges": {
+            "default_days_back": 7,
+            "max_days_back": 30
+        }
+    },
+    "credentials": {
+        "note": "Set PEMS_USERNAME and PEMS_PASSWORD environment variables",
+        "example": "export PEMS_USERNAME='your_username' && export PEMS_PASSWORD='your_password'"
+    },
+    "output_structure": {
+        "description": "PeMS data will be organized as follows:",
+        "structure": {
+            "data/pems/train/sequence_0000/frame_000.png": "Training sequences",
+            "data/pems/val/sequence_0000/frame_000.png": "Validation sequences", 
+            "data/pems/test/sequence_0000/frame_000.png": "Test sequences"
+        }
+    }
+}
